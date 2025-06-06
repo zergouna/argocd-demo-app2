@@ -10,8 +10,4 @@ spec:
   - port: 80
     targetPort: 80
     type: ClusterIP
-selector:
-    app: nginx
-  sessionAffinity: None
-  type: ClusterIP
 
